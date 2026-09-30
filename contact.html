@@ -2,12 +2,66 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Mon site</title>
+    <link rel="stylesheet" href="ligne.css">
 </head>
-<body>
-    <h1>Contact</h1>
 
-    <p>Vous pouvez nous contacter à l'adresse suivante :</p>
-    <p>contact@monsite.fr</p>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">DEV<span>OPS</span></div>
+
+            <div class="menu">
+                <a href="index.html">Accueil</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <p class="surtitle">CONTACT</p>
+
+            <h1>Parlons de votre projet</h1>
+
+            <p class="description">
+                Une question, une idée ou un projet à développer ?
+                N'hésitez pas à me contacter.
+            </p>
+
+            <form class="contact-form">
+
+                <div class="form-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"
+                        placeholder="Votre message..."></textarea>
+                </div>
+
+                <button type="submit" class="button">
+                    Envoyer le message →
+                </button>
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Mon site — Tous droits réservés.</p>
+    </footer>
+
 </body>
 </html>
